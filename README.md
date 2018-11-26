@@ -1,6 +1,6 @@
 # AW
-Estos son mis apuntes y ejercicios.
-#1.- Estructura mínima de una web:
+Estos son mis apuntes y ejercicios. <br>
+##1.- Estructura mínima de una web:
 ```html
 <!DOCTYPE html>
 <html>
