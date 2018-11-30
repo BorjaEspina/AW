@@ -63,10 +63,32 @@ Lo primero será escojer el link de la página y añadirla en "a href"???", con 
 ```
 
 ## 7.- ¿Qué son las pseudoclases?, pon ejemplos.
-Una pseudo-clase es usada para definir un estado especial de un elemento. Se da uso con una clave precedida de dos puntos que se añade al final del sector para indicar que daremos estilo a los elementos seleccionados solo cuando se encuentren en un estado determinado. Por ejemplo:
+Una pseudo-clase es usada para definir un estado especial de un elemento. Se da uso con una clave precedida de dos puntos que se añade al final del sector para indicar que daremos estilo a los elementos seleccionados solo cuando se encuentren en un estado determinado. Por ejemplo: <br>
 :active <br>
 :any <br>
 :checked <br>
 :default <br>
 :dir() <br>
 :disabled <br>
+
+## 8.- Explica el modelo de caja de CSS (margin, border y padding)
+El modelo de la caja de CSS marca los margenes que tienen los elementos, es decir, cada elemento contiene un margin, un border y un padding, y nosotros lo podemos modificar segun lo queramos. El margin es el margen que existe entre nuestro elemento y el resto de elementos, y el margen comenzaría a partir del border. El border es una linea que puede ser de dimensiones 0 o más, es decir, podemos hacer que exista un border o que no. Esta característica se encuentra entre el margin y el padding, y es una línea con las decoraciones que queramos que puede ser más o menos ancha. El padding es la última característica, y marca la distancia que hay entre el elemento con el borde exterior, y con el resto de elementos que se encuentren dentro de ese borde.
+
+## 9.- Explica que son los selectores de CSS y pon ejemplos
+Los selectores en CSS son los componentes de una página web. La información en una página web se ordena y clasifica en selectores para dar la forma que se desea. Por ejemplo: <br>
+h1 <br>
+aside <br>
+nav <br>
+
+## 10.- Di a quien afectan:
+p a { color: red;} = Afectaría a las A dentro de P.
+
+p > a { color: red; } = Afectaría a los hijos directos de A dentro de P.
+
+h1 + h2 { color: red } = Afectaría a los elementos h2 seguidos de h1.
+
+a[class] { color: blue; } = Los links se colorearía de azul.
+
+a[class="externo"] { color: blue; } = Los links con la clase "externo" se colorearían de azul.
+
+a[href="http://www.ejemplo.com"] { color: blue; } = Se colorearía el link que está entre comillas.
