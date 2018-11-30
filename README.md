@@ -64,9 +64,9 @@ Lo primero será escojer el link de la página y añadirla en "a href"???", con 
 
 ## 7.- ¿Qué son las pseudoclases?, pon ejemplos.
 Una pseudo-clase es usada para definir un estado especial de un elemento. Se da uso con una clave precedida de dos puntos que se añade al final del sector para indicar que daremos estilo a los elementos seleccionados solo cuando se encuentren en un estado determinado. Por ejemplo:
-:active
-:any
-:checked
-:default
-:dir()
-:disabled
+:active <br>
+:any <br>
+:checked <br>
+:default <br>
+:dir() <br>
+:disabled <br>
